@@ -40,6 +40,7 @@ cd my_tf_course
 mkdir my_test_code
 cd my_test_code
 echo "This is random # $RANDOM" > my_random_code.txt
+git status
 ```
 
 - Commit your change for your local repo *(change location if you are not using home directory)*
