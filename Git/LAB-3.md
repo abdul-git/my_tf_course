@@ -21,25 +21,17 @@ git status
 ```bash
 git branch # this lists local branches
 git branch -r # this lists remote branches
-git checkout -b my_tf_course_dev
+git checkout master
 git branch
 ```
 
-- Add empty file/directory 
+- Merge Dev branch with master & push to origin 
 ```bash
-cd my_tf_course
-mkdir my_test_code_rel0
-cd my_test_code_rel0
-echo "This is random # $RANDOM" > my_random_code_rel0.txt
+git merge my_tf_course_dev
+git push origin master
+git branch
 git status
 ```
 
-- Commit your change for your local branch repo *(change location if you are not using home directory)*
-```bash
-cd ~/my_tf_course
-git add my_test_code_rel0
-git commit -m "First Branch Commit" 
-git push origin my_tf_course_dev
-```
 
 ### What happened? do you see your changes on GitHub platfrom? 
