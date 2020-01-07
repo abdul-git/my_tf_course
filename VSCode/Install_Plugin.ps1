@@ -14,7 +14,32 @@ $extensions =
     "ms-vscode.csharp",
     # Extra functionality
     "humao.rest-client",
-    "cssho.vscode-svgviewer"
+    "cssho.vscode-svgviewer",
+    # IaC pluggins
+    "jupyter.showPreview",
+    "eamodio.gitlens",
+    "mindginative.terraform-snippets",
+    "neilbarkhina.gitdownloadazurerepos",
+    "ms-azuretools.vscode-azureterraform",
+    "hookyqr.beautify",
+    "bibhasdn.git-easy",
+    "donjayamanne.githistory",
+    "knisterpeter.vscode-github",
+    "donjayamanne.jupyter",
+    "ms-vscode.powershell",
+    "loganarnett.tf-snippets",
+    "mccarter.start-git-bash",
+    "4ops.terraform",
+    "mauve.terraform",
+    "erd0s.terraform-autocomplete",
+    "laszer25.terraform-azure-autocomplete",
+    "sahmed.terraform-comments-beautifier"
+
+
+
+
+
+
 
 $cmd = "code --list-extensions"
 Invoke-Expression $cmd -OutVariable output | Out-Null
