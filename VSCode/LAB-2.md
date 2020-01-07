@@ -5,7 +5,6 @@
  
 - Comment out  and uncomment code
 - Merge text into single line 
-- Verify VS Code Extensions
 - Move code block up/down
 
 - Launch Command Palette
@@ -18,19 +17,25 @@
     - Ctrl + /
     ![](https://tinyurl.com/yf5s3wec)
 
-- Select the line to be commented
+- Uncomment single line 
+    - Windows: Ctrl + /
+    - Mac: CMD + /
+    ![](https://tinyurl.com/yf5s3wec)
+
+
+- Select multiple lines to be commented
     - Windows: Hold Ctrl + K & C  
+    - Mac: CMD + K & C  
     ![](https://tinyurl.com/yffocoyz)
-- Install Extensions by executing from terminal 
-    - Windows: Ctrl + Shift + `
-    - Mac: Ctrl + ~
-- Execute install script
-    - Windows: Install_Plugin.p1 
-    - Mac: Install_Plugin.bash 
+- Select multiple lines to be uncommented
+    - Windows: Hold Ctrl + K & U  
+    - Mac: CMD + K & U  
+    ![](https://tinyurl.com/yffocoyz)
 
-- List all installed Extensions after install 
-    - type @installed or show installed extensions
+### Merge text into single line 
 
-What do you see now?
-
-- Restart VS Code for extensions to effect
+- Select or Highlight lines to be merged
+    - Open Command palette 
+        - Windows: Ctrl + Shift + P 
+        - Mac: CMD + Shift + P 
+    - Type Join Lines & magic is done 
