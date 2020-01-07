@@ -13,7 +13,7 @@
 
 ### Comment out  and uncomment code
 
-##### Note: *<span style="color:red">Use directory sample-code for this lab.</span>*
+##### Note: <span style="color:red">Use directory sample-code for this lab.</span>
 - Comment single line 
     - Ctrl + /
     ![](https://tinyurl.com/yf5s3wec)
