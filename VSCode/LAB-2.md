@@ -13,6 +13,7 @@
 
 ### Comment out  and uncomment code
 
+##### Note: *<span style="color:red">Use directory sample-code for this lab.</span>*
 - Comment single line 
     - Ctrl + /
     ![](https://tinyurl.com/yf5s3wec)
@@ -27,7 +28,7 @@
     - Windows: Hold Ctrl + K & C  
     - Mac: CMD + K & C  
     ![](https://tinyurl.com/yffocoyz)
-- Select multiple lines to be uncommented
+- Select multiple lines to be uncomment
     - Windows: Hold Ctrl + K & U  
     - Mac: CMD + K & U  
     ![](https://tinyurl.com/yffocoyz)
@@ -39,3 +40,9 @@
         - Windows: Ctrl + Shift + P 
         - Mac: CMD + Shift + P 
     - Type Join Lines & magic is done 
+
+### Move code block up/down    
+
+- Select or Highlight code block to be moved
+    - Windows: Alt + up/down arrow keys
+    - Mac: Option + up/down arrow keys

@@ -9,9 +9,9 @@ variable XXXX {
 }
 data "XXXX" "YYYYY" {
 }
-
 resource "XXXX" "YYYY" {
 }
+
 
 output "OUT_ABCD" {
 }
